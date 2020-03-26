@@ -16,5 +16,8 @@ node {
        sh 'echo ${BUILD_ID}'
        sh 'echo ${JOB_NAME}'
        sh 'echo ${greeting}'
+    } 
+    stage('Dummy') {
+        
     }
 }
