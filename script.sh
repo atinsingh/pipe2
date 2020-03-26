@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 echo 'HELLO JENKLINS'
 touch file1.txt
