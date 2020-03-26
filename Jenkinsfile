@@ -7,6 +7,6 @@ node {
         sh 'sh script.sh'
     }
     stage('Notify via Email') {
-    
+        emailext body: 'BUILD IS GOOD', subject: 'BUILD PASS', to: 'atin@pragra.co'
     }
 }
