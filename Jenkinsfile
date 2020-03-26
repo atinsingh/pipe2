@@ -6,4 +6,7 @@ node {
         sh 'chmod +x script.sh'
         sh 'sh script.sh'
     }
+    stage('Notify via Email') {
+    
+    }
 }
